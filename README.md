@@ -1,7 +1,7 @@
 <div align="center">
 
   <h1>
-    <code>map33.js</code>
+    <code>CREMAP</code>
   </h1>
 
 <strong>A JavaScript library to build 3D maps with
@@ -15,7 +15,7 @@
 
 </div>
 
-[**Live demo**](https://map33.openbloc.com) (you can double click to add missing tiles)
+[**Live demo**](https://cremap.arvrtise.com) (you can double click to add missing tiles)
 
 ### Installation
 
@@ -33,7 +33,7 @@ yarn add map33
 
 [Map33.js](https://github.com/blaze33/map33.js) takes two slippy map tilesets, one to fetch elevation data tiles, the other to texture the meshes built from said elevation data (any XYZ tileserver will do).
 
-[**Live demo**](https://map33.openbloc.com) (you can double click to add missing tiles)
+[**Live demo**](https://cremap.arvrtise.com) (you can double click to add missing tiles)
 
 ```javascript
 import { Map, Source, MapPicker } from 'map33' // import Map as Map33 if you use the default Map object.
@@ -60,7 +60,7 @@ const source = new Source(api, token)
 
 #### `Map` class
 
-The main class of map33.js. Creates a 3D map using a grid of tiles.
+The main class of CREMAP. Creates a 3D map using a grid of tiles.
 
 ```javascript
 const map = new Map(scene, camera, source, position, options)
