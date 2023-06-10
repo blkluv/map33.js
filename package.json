@@ -9,6 +9,7 @@
   "unpkg": "dist/map33.umd.js",
   "dependencies": {
     "get-pixels": "^3.3.2",
+    "map33": "^0.2.0",
     "three": "^0.118.3"
   },
   "resolutions": {
